@@ -89,7 +89,7 @@ footer{
 }
 .spaces{
 	min-height: 700px;
-	background-color: #a8a8a8;
+	background-color: #FFF;
 }
 
 .team_btn{
@@ -152,6 +152,12 @@ footer{
   -moz-border-radius: 50%;
   border-radius: 50%;
   border: 5px solid #FFF;
+}
+.content p{
+
+	 font-size: 20px;
+	 font-weight: 300;
+	 color: #FFF;
 }
 
  @media (max-width: 1199px) {
