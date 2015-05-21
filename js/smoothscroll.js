@@ -1,9 +1,42 @@
-$('a[href*=#]').each(function() {
-if($(this).attr('href').indexOf("#") == 0) {
-  $(this).click(function(e) {
-    e.preventDefault();
-    var targetOffset = $($(this).attr('href')).offset().top;
-    $('body').animate({scrollTop: targetOffset - 70}, 700);
-  });
-}
+
+$(".navbar-collapse ul li a[href^='#']").on('click', function(e) {
+
+   // prevent default anchor click behavior
+   e.preventDefault();
+
+   // store hash
+   var hash = this.hash;
+
+   // animate
+   $('html, body').animate({
+       scrollTop: $(this.hash).offset().top -70
+     }, 700, function(){
+
+       // when done, add hash to url
+       // (default click behaviour)
+       window.location.hash = hash;
+     });
+
 });
+
+
+$("a.navbar-brand[href^='#']").on('click', function(e) {
+
+   // prevent default anchor click behavior
+   e.preventDefault();
+
+   // store hash
+   var hash = this.hash;
+
+   // animate
+   $('html, body').animate({
+       scrollTop: $(this.hash).offset().top -70
+     }, 700, function(){
+
+       // when done, add hash to url
+       // (default click behaviour)
+       window.location.hash = hash;
+     });
+
+});
+
