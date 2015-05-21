@@ -113,6 +113,13 @@ footer{
 	background-color: #D8D8D8 ;
 	}
 
+.team_header{
+	text-align: center;
+	font-size: 30px;
+	color: #D9534F;
+	margin: 30px 0;
+}
+
 .src-image {
   display: none;
 }
