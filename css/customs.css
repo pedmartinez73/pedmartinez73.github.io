@@ -151,7 +151,7 @@ footer{
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  border: 5px solid rgba(0,0,30,0.8);
+  border: 5px solid #FFF;
 }
 
  @media (max-width: 1199px) {
