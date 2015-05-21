@@ -48,7 +48,7 @@ $(".navbar-collapse ul li a[href^='#team']").on('click', function(e) {
 
    // animate
    $('html, body').animate({
-       scrollTop: $(this.hash).offset().top -100
+       scrollTop: $(this.hash).offset().top 0
      }, 700, function(){
 
        // when done, add hash to url
