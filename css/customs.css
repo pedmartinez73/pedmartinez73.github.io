@@ -87,6 +87,11 @@ footer{
 	left: 26%;
 
 }
+.spaces{
+	min-height: 700px;
+	background-color: #a8a8a8;
+}
+
 .homepage a:hover{
 	color:#D9534F;
 	text-decoration: none;
