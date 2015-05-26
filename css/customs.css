@@ -18,6 +18,7 @@ footer{
 	background-color: #D9534F;
 	padding-top: 150px;
 	padding-bottom: 30px;
+	position: relative;
 
 }
 .jumbotron{
@@ -33,6 +34,25 @@ footer{
 
 	margin-bottom:30px;
 	font-weight: 100;
+}
+.modal-content iframe{
+margin-top: 15px;
+margin-bottom: 10px;
+
+}
+
+.modal-content button.close{
+
+position: absolute;
+top: 5px;
+right:5px;
+background-color:white;
+font-size: 28px;
+width: 30px;
+opacity: 1;
+border-radius: 24px;
+-webkit-border-radius:24px;
+-moz-border-radius:24px;
 }
 #get_involved{
 
@@ -118,6 +138,15 @@ footer{
 	font-size: 30px;
 	color: #D9534F;
 	margin: 30px 0;
+}
+#back_to_top{
+position: absolute;
+right: 10px;
+bottom: 25px;
+}
+
+#back_to_top a{
+color:#333;
 }
 
 .src-image {
